@@ -1,13 +1,14 @@
-# CS230
+# CS230 Journal Submission
 
-Briefly summarize The Gaming Room client and their software requirements. Who was the client? What type of software did they want you to design?
-
-What did you do particularly well in developing this documentation?
-
-What about the process of working through a design document did you find helpful when developing the code?
-
-If you could choose one part of your work on these documents to revise, what would you pick? How would you improve it?
-
-How did you interpret the user’s needs and implement them into your software design? Why is it so important to consider the user’s needs when designing?
-
-How did you approach designing software? What techniques or strategies would you use in the future to analyze and design a similar software application?
+# Briefly summarize The Gaming Room client and their software requirements. Who was the client? What type of software did they want you to design?
+The client was The Gaming Room, a company that developed a game called Draw It or Lose It. They already had the game running on Android but wanted to expand it to other platforms. The software needed to support multiple users and teams, allow several game instances to run at once, and manage a large library of images that the game would display quickly during play.
+# What did you do particularly well in developing this documentation?
+I think I did a good job clearly explaining how the system should be organized and how different components would interact. I made sure to describe the logic behind design decisions, like why certain structures were used for app scalability and memory efficiency. I also kept the documentation well organized so that it was easy to follow.
+# What about the process of working through a design document did you find helpful when developing the code?
+Working through the design document helped me think ahead about how each part of the system should fit together. It forced me to plan the structure, which would made the actual development smoother. It also helped me identify possible early issues, such as how to handle multiple users or manage shared data.
+# If you could choose one part of your work on these documents to revise, what would you pick? How would you improve it?
+If I could revise one part, I would focus more on the section about distributed systems and network communication. At first, I was unsure how the singleton pattern would work across multiple servers. I would improve it by researching more about how cloud-based storage and tools like Redis could be used to maintain shared state efficiently.
+# How did you interpret the user’s needs and implement them into your software design? Why is it so important to consider the user’s needs when designing?
+I interpreted the user’s needs by focusing on what The Gaming Room wanted from the new version of their game. They needed it to support multiple users and run on more than one platform. I made sure the design supported scalability, quick image rendering, and smooth gameplay. Considering the user’s needs is important because it ensures the final product works the way they expect and provides a good experience for players.
+# How did you approach designing software? What techniques or strategies would you use in the future to analyze and design a similar software application?
+I approached the design by breaking down the problem into smaller parts, like game logic, user interaction, and data handling. I used diagrams and structured documentation to keep everything clear. In the future, I would use similar methods, but I would also include more testing and feedback during the design stage to make sure the plan meets user and business goals before development starts.
