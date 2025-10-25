@@ -1,4 +1,4 @@
-# CS230 Journal Submission
+# CS230 Journal Submission Zachary Russo
 
 # Briefly summarize The Gaming Room client and their software requirements. Who was the client? What type of software did they want you to design?
 The client was The Gaming Room, a company that developed a game called Draw It or Lose It. They already had the game running on Android but wanted to expand it to other platforms. The software needed to support multiple users and teams, allow several game instances to run at once, and manage a large library of images that the game would display quickly during play.
